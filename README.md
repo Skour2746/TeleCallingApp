@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # TeleCallingApp
 TeleCallingApp
 =======
@@ -19,3 +20,7 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 >>>>>>> e7483a5 (Initial commit)
+=======
+# TeleCallingApp
+TeleCallingApp
+>>>>>>> 3c407ced63992d4998d0cb7a3f0c010244ebf2b8
