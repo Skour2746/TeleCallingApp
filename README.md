@@ -1,2 +1,0 @@
-# TeleCallingApp
-TeleCallingApp
