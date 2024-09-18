@@ -79,15 +79,12 @@ class AuthController {
     String? stamp = sharedpreferences.getString("stamp");
     print("Saved Stamp Value");
     print(stamp);
-    if (stamp == null) {
-      await sharedpreferences.setString("stamp", "");
-    }
 
     var stampRes = await http.post(
       Uri.parse("$uri/validateStamp"),
       headers: <String, String>{
         'Content-Type': 'application/json; charset=UTF-8',
-        'stamp': stamp!,
+        'stamp': stamp,
       },
     );
 
