@@ -29,7 +29,7 @@ class _MyAppState extends State<MyApp> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    authcontroller.fetchUserData(context);
+    // authcontroller.fetchUserData(context);
   }
 
   @override
@@ -47,6 +47,7 @@ class _MyAppState extends State<MyApp> {
             ),
             colorScheme:
                 ColorScheme.light(primary: GlobalVariables.primaryColor)),
+<<<<<<< HEAD
         home: Provider.of<UserProvider>(context).user.stamp.isNotEmpty
 <<<<<<< HEAD
             ? const Homescreen()
@@ -55,5 +56,8 @@ class _MyAppState extends State<MyApp> {
             ? AuthScreen()
             : TeleCallerDashboard());
 >>>>>>> a1cee87 (hello)
+=======
+        home: Homescreen());
+>>>>>>> b17540e (assets)
   }
 }
