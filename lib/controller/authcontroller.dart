@@ -84,7 +84,7 @@ class AuthController {
       Uri.parse("$uri/validateStamp"),
       headers: <String, String>{
         'Content-Type': 'application/json; charset=UTF-8',
-        'stamp': stamp,
+        'stamp': stamp!,
       },
     );
 

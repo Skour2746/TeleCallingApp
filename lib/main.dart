@@ -48,8 +48,8 @@ class _MyAppState extends State<MyApp> {
             colorScheme:
                 ColorScheme.light(primary: GlobalVariables.primaryColor)),
         home: Provider.of<UserProvider>(context).user.stamp.isNotEmpty
-            ? Homescreen()
-            : AuthScreen());
+            ? const Homescreen()
+            : const AuthScreen());
   }
 }
 
